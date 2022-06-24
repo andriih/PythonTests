@@ -1,0 +1,10 @@
+.pytest_cache/
+reports/
+build/
+.idea/
+__pycache__
+*.exe
+
+
+/logs/
+/allure/

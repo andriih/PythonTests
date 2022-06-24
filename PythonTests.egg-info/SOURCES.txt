@@ -1,0 +1,7 @@
+setup.py
+PythonTests.egg-info/PKG-INFO
+PythonTests.egg-info/SOURCES.txt
+PythonTests.egg-info/dependency_links.txt
+PythonTests.egg-info/not-zip-safe
+PythonTests.egg-info/requires.txt
+PythonTests.egg-info/top_level.txt
