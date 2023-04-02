@@ -1,8 +1,8 @@
 import allure
 import pytest
-from utilities.api.GenericUtilities import generate_random_string
-from src.api.clients.ProductsClient import ProductsClient
-from src.api.dao.ProductsDao import ProductsDAO
+from utilities.api.generic_utilities import generate_random_string
+from src.api.clients.products_client import ProductsClient
+from src.api.dao.products_dao import ProductsDAO
 
 
 @allure.title('Verify ability to create a product')

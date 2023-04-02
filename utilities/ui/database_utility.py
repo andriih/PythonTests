@@ -1,5 +1,5 @@
 import pymysql
-from utilities.ui.ConfigUtility import get_database_credentials
+from utilities.ui.config_utility import get_database_credentials
 from src.ui.configs.generic_configs import GenericConfigs
 
 

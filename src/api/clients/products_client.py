@@ -1,5 +1,5 @@
-from utilities.api.RequestsUtility import RequestsUtility
-from utilities.common.CustomLogger import CustomLogger
+from utilities.api.requests_utility import RequestsUtility
+from utilities.common.custom_logger import CustomLogger
 
 
 class ProductsClient(object):

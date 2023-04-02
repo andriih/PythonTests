@@ -1,7 +1,7 @@
 import allure
 import pytest
-from utilities.common.CustomLogger import CustomLogger
-from src.ui.pages.MyAccountSignedOut import MyAccountSignedOut
+from utilities.common.custom_logger import CustomLogger
+from src.ui.pages.my_account_signed_out import MyAccountSignedOut
 
 
 @pytest.mark.usefixtures("init_driver")

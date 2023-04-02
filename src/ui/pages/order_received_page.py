@@ -1,8 +1,8 @@
-from utilities.common.SeleniumExtended import SeleniumExtended
-from src.ui.pages.locators import OrderReceivedPageLocators
+from utilities.common.selenium_extended import SeleniumExtended
+from src.ui.pages.locators import order_received_page_locators
 
 
-class OrderReceivedPage(OrderReceivedPageLocators.OrderReceivedPageLocators):
+class OrderReceivedPage(order_received_page_locators.OrderReceivedPageLocators):
 
     def __init__(self, driver):
         self.driver = driver

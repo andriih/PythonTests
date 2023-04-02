@@ -1,9 +1,9 @@
 import allure
 import pytest
 from datetime import datetime, timedelta
-from src.api.clients.ProductsClient import ProductsClient
-from src.api.dao.ProductsDao import ProductsDAO
-from utilities.common.CustomLogger import CustomLogger
+from src.api.clients.products_client import ProductsClient
+from src.api.dao.products_dao import ProductsDAO
+from utilities.common.custom_logger import CustomLogger
 
 
 @allure.title('Test update order customer note')

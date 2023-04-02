@@ -1,9 +1,9 @@
 import allure
 import pytest
-from utilities.common.CustomLogger import CustomLogger
-from utilities.api.RequestsUtility import RequestsUtility
-from src.api.dao.ProductsDao import ProductsDAO
-from src.api.clients.ProductsClient import ProductsClient
+from utilities.common.custom_logger import CustomLogger
+from utilities.api.requests_utility import RequestsUtility
+from src.api.dao.products_dao import ProductsDAO
+from src.api.clients.products_client import ProductsClient
 
 
 @pytest.mark.products

@@ -1,6 +1,6 @@
 import allure
 import pytest
-from utilities.api.RequestsUtility import RequestsUtility
+from utilities.api.requests_utility import RequestsUtility
 
 
 class TestGetAllCustomer:

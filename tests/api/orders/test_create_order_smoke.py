@@ -1,8 +1,8 @@
 import allure
-from src.api.dao.OrdersDao import OrdersDao
-from src.api.clients.СustomersСlient import CustomerClient
+from src.api.dao.orders_dao import OrdersDao
+from src.api.clients.customers_client import CustomerClient
 import pytest
-from utilities.common.CustomLogger import CustomLogger
+from utilities.common.custom_logger import CustomLogger
 
 
 @pytest.mark.usefixtures('my_orders_smoke_setup')

@@ -1,7 +1,7 @@
 from src.api.configs.hosts_config import WOO_API_HOSTS
-from utilities.api.CredentialsUtility import CredentialUtility
+from utilities.api.credentials_utility import CredentialUtility
 from woocommerce import API
-from utilities.common.CustomLogger import CustomLogger
+from utilities.common.custom_logger import CustomLogger
 from http import HTTPStatus
 
 import os

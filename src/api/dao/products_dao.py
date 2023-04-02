@@ -1,5 +1,5 @@
 import random
-from utilities.api.DbUtility import DbUtility
+from utilities.api.db_utility import DbUtility
 
 
 class ProductsDAO:

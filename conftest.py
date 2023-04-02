@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChOptions
 import os
 import allure
-from src.api.dao.ProductsDao import ProductsDAO
-from src.api.clients.OrdersClient import OrdersClient
-from utilities.common.CustomLogger import CustomLogger
+from src.api.dao.products_dao import ProductsDAO
+from src.api.clients.orders_client import OrdersClient
+from utilities.common.custom_logger import CustomLogger
 
 
 @pytest.fixture(autouse=True)

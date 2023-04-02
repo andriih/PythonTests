@@ -1,12 +1,12 @@
 import allure
 import pytest
-from src.ui.pages.HomePage import HomePage
-from src.ui.pages.Header import Header
-from src.ui.pages.CartPage import CartPage
-from src.ui.pages.CheckoutPage import CheckoutPage
-from src.ui.pages.OrderReceivedPage import OrderReceivedPage
+from src.ui.pages.home_page import HomePage
+from src.ui.pages.header import Header
+from src.ui.pages.cart_page import CartPage
+from src.ui.pages.checkout_page import CheckoutPage
+from src.ui.pages.order_received_page import OrderReceivedPage
 from src.ui.configs.generic_configs import GenericConfigs
-from utilities.ui.DatabaseUtility import get_order_from_db_by_order_no
+from utilities.ui.database_utility import get_order_from_db_by_order_no
 
 
 @pytest.mark.usefixtures('init_driver')

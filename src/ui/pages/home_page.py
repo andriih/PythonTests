@@ -1,6 +1,6 @@
-from utilities.common.SeleniumExtended import SeleniumExtended
-from utilities.ui.ConfigUtility import get_base_url
-from src.ui.pages.locators.HomePageLocators import HomePageLocators
+from utilities.common.selenium_extended import SeleniumExtended
+from utilities.ui.config_utility import get_base_url
+from src.ui.pages.locators.home_page_locators import HomePageLocators
 
 
 class HomePage(HomePageLocators):

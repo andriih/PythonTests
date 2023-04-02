@@ -1,8 +1,8 @@
 import pymysql
 import os
-from utilities.api.CredentialsUtility import CredentialUtility
+from utilities.api.credentials_utility import CredentialUtility
 from src.api.configs.hosts_config import DB_HOST
-from utilities.common.CustomLogger import CustomLogger
+from utilities.common.custom_logger import CustomLogger
 
 
 class DbUtility(object):

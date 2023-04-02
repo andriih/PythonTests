@@ -1,10 +1,10 @@
 from src.api.configs.hosts_config import API_HOSTS
-from utilities.api.CredentialsUtility import CredentialUtility
+from utilities.api.credentials_utility import CredentialUtility
 import requests
 import os
 import json
 from requests_oauthlib import OAuth1
-from utilities.common.CustomLogger import CustomLogger
+from utilities.common.custom_logger import CustomLogger
 
 
 class RequestsUtility(object):

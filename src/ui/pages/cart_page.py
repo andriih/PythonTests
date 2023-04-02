@@ -1,8 +1,8 @@
-from utilities.common.SeleniumExtended import SeleniumExtended
-from src.ui.pages.locators import CartPageLocators
+from utilities.common.selenium_extended import SeleniumExtended
+from src.ui.pages.locators import cart_page_locators
 
 
-class CartPage(CartPageLocators.CartPageLocators):
+class CartPage(cart_page_locators.CartPageLocators):
 
     def __init__(self, driver):
         self.driver = driver

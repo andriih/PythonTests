@@ -1,9 +1,9 @@
 import allure
 import pytest
-from utilities.common.CustomLogger import CustomLogger
-from src.ui.pages.MyAccountSignedOut import MyAccountSignedOut
-from src.ui.pages.MyAccountSignedIn import MyAccountSignedIn
-from utilities.ui.GenericUtility import generate_random_email_and_password
+from utilities.common.custom_logger import CustomLogger
+from src.ui.pages.my_account_signed_out import MyAccountSignedOut
+from src.ui.pages.my_account_signed_in import MyAccountSignedIn
+from utilities.ui.generic_utility import generate_random_email_and_password
 
 
 @pytest.mark.usefixtures("init_driver")

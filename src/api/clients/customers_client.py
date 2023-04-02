@@ -1,5 +1,5 @@
-from utilities.api.GenericUtilities import generate_random_email_and_password
-from utilities.api.RequestsUtility import RequestsUtility
+from utilities.api.generic_utilities import generate_random_email_and_password
+from utilities.api.requests_utility import RequestsUtility
 
 
 class CustomerClient(object):

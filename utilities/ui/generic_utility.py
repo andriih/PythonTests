@@ -1,6 +1,6 @@
 import random
 import string
-from utilities.common.CustomLogger import CustomLogger
+from utilities.common.custom_logger import CustomLogger
 
 
 def generate_random_email_and_password(domain=None, email_prefix=None):

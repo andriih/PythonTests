@@ -1,9 +1,9 @@
-from utilities.common.SeleniumExtended import SeleniumExtended
-from src.ui.pages.locators import CheckoutPageLocators
-from utilities.ui.GenericUtility import generate_random_email_and_password
+from utilities.common.selenium_extended import SeleniumExtended
+from src.ui.pages.locators import checkout_page_locators
+from utilities.ui.generic_utility import generate_random_email_and_password
 
 
-class CheckoutPage(CheckoutPageLocators.CheckoutPageLocators):
+class CheckoutPage(checkout_page_locators.CheckoutPageLocators):
 
     def __init__(self, driver):
         self.driver = driver

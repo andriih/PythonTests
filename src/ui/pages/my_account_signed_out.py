@@ -1,11 +1,11 @@
 
-from src.ui.pages.locators import MyAccountSignedOutLocator
-from utilities.common.SeleniumExtended import SeleniumExtended
-from utilities.ui.ConfigUtility import get_base_url
-from utilities.common.CustomLogger import CustomLogger
+from src.ui.pages.locators import my_account_signed_out_locator
+from utilities.common.selenium_extended import SeleniumExtended
+from utilities.ui.config_utility import get_base_url
+from utilities.common.custom_logger import CustomLogger
 
 
-class MyAccountSignedOut(MyAccountSignedOutLocator.MyAccountSignedOutLocator):
+class MyAccountSignedOut(my_account_signed_out_locator.MyAccountSignedOutLocator):
 
     endpoint = '/my-account/'
 

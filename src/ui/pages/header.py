@@ -1,8 +1,8 @@
-from utilities.common.SeleniumExtended import SeleniumExtended
-from src.ui.pages.locators import HeaderLocators
+from utilities.common.selenium_extended import SeleniumExtended
+from src.ui.pages.locators import header_locators
 
 
-class Header(HeaderLocators.HeaderLocators):
+class Header(header_locators.HeaderLocators):
 
     def __init__(self, driver):
         self.driver = driver

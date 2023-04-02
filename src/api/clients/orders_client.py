@@ -1,7 +1,7 @@
 import os.path
 import json
-from utilities.api.WooAPIUtility import WooAPIUtility
-from utilities.common.CustomLogger import CustomLogger
+from utilities.api.woo_api_utility import WooAPIUtility
+from utilities.common.custom_logger import CustomLogger
 
 
 class OrdersClient(object):

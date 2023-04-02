@@ -2,9 +2,9 @@ import random
 
 import allure
 import pytest
-from src.api.clients.OrdersClient import OrdersClient
-from utilities.api.WooAPIUtility import WooAPIUtility
-from utilities.api.GenericUtilities import generate_random_string
+from src.api.clients.orders_client import OrdersClient
+from utilities.api.woo_api_utility import WooAPIUtility
+from utilities.api.generic_utilities import generate_random_string
 
 pytestmark = [pytest.mark.orders, pytest.mark.regression]
 

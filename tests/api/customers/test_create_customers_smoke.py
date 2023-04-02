@@ -1,10 +1,10 @@
 import allure
 import pytest
-from utilities.common.CustomLogger import CustomLogger
-from utilities.api.GenericUtilities import generate_random_email_and_password
-from src.api.clients.СustomersСlient import CustomerClient
-from src.api.dao.CustomersDao import CustomersDAO
-from utilities.api.RequestsUtility import RequestsUtility
+from utilities.common.custom_logger import CustomLogger
+from utilities.api.generic_utilities import generate_random_email_and_password
+from src.api.clients.customers_client import CustomerClient
+from src.api.dao.customers_dao import CustomersDAO
+from utilities.api.requests_utility import RequestsUtility
 
 pytestmark = [pytest.mark.products, pytest.mark.smoke]
 

@@ -1,5 +1,5 @@
-from src.ui.pages.locators.MyAccountSignedInLocators import MyAccountSignedInLocators
-from utilities.common.SeleniumExtended import SeleniumExtended
+from src.ui.pages.locators.my_account_signed_in_locators import MyAccountSignedInLocators
+from utilities.common.selenium_extended import SeleniumExtended
 
 
 class MyAccountSignedIn(MyAccountSignedInLocators):
