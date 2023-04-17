@@ -1,5 +1,6 @@
 import pytest
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options as ChOptions
 import os
 import allure
@@ -12,7 +13,8 @@ from utilities.common.custom_logger import CustomLogger
 def run_before_and_after_tests():
     """Fixture to notify before and after a test is run"""
     # Setup:
-    CustomLogger.log().info(f"======== START TEST: {os.environ.get('PYTEST_CURRENT_TEST').split(':')[-1].split(' ')[0]}")
+    CustomLogger.log().info(
+        f"======== START TEST: {os.environ.get('PYTEST_CURRENT_TEST').split(':')[-1].split(' ')[0]}")
     yield
     # Teardown
     CustomLogger.log().info(f"======== END TEST: {os.environ.get('PYTEST_CURRENT_TEST').split(':')[-1].split(' ')[0]}")
@@ -44,7 +46,7 @@ def init_driver(request):
                         f"Supported are: {supported_browsers}")
 
     if browser in ('chrome', 'ch'):
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(ChromeDriverManager().install())
     elif browser in ('headlesschrome'):
         chrome_options = ChOptions()
         chrome_options.add_argument('--disable-gpu')

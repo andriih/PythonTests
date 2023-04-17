@@ -21,7 +21,6 @@ class TestLoginNegative:
             my_account.input_login_username(fake_name)
             my_account.input_login_password('124234')
             my_account.click_login_button()
-            # import pdb; pdb.set_trace()
 
         with allure.step('Validate error warning'):
             assert my_account.wait_until_error_is_displayed(), f"Unexpected behavior when login as unknown User"

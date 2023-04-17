@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(name='PythonTests',
       version='1.0',
-      description="Practice AUtomation testing",
+      description="Practice Automation testing",
       author="Andrii Hnatyshyn",
       author_email="andrew.hnatyshyn@gmail.com",
       packeges=find_packages(),
@@ -15,7 +15,8 @@ setup(name='PythonTests',
           "requests-oauthlib==1.3.0",
           "PyMySQL==1.0.2",
           "WooCommerce==3.0.0",
-          "selenium==4.1.5",
+          "selenium==4.8.1",
           "allure-pytest==2.9.45",
-          "allure-python-commons==2.9.45"
+          "allure-python-commons==2.9.45",
+          "webdriver_manager==3.8.6"
       ])
